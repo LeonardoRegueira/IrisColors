@@ -15,7 +15,6 @@ Es una aplicación web moderna y elegante, concebida para facilitar la exploraci
 ✔️ Desarrollado en Angular: Cuenta con una estructura de código mantenible y un rendimiento optimizado.<br>
 
 # Tecnologías empleadas:🚀
-<br>
 ℹ️ Angular<br>
 ℹ️ TypeScript<br>
 ℹ️ HTML5 & CSS3
