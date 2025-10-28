@@ -1,4 +1,5 @@
-#IrisCololors 
+# IrisCololors 
+
 Es una aplicación web moderna y elegante, concebida para facilitar la exploración, selección y gestión de paletas de colores en sus proyectos de diseño y desarrollo. Ha sido desarrollada íntegramente con Angular y siguiendo buenas prácticas de desarrollo, lo que garantiza una experiencia de usuario fluida e intuitiva.<br>
 
 🌟Características destacadas:<br>
