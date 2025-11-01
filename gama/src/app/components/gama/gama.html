@@ -1,0 +1,38 @@
+
+<!-- Contenedor principal con margen superior -->
+<div class="container mt-4">
+
+   <!-- Grupo de entrada con Bootstrap: símbolo #, input y botón -->
+  <h2 class="mb-3">GAMA DE COLORES</h2>
+  <div class="input-group mb-3">
+    <span class="input-group-text">#</span> <!-- Etiqueta fija para mostrar el símbolo # -->
+    <input [(ngModel)]="hexInput" class="form-control" placeholder="______" />
+    <button class="btn btn-primary" (click)="buscarGama()">Buscar gama</button>     <!-- Botón que ejecuta la función buscarGama() -->
+  </div>
+
+   <!-- Muestra los colores relacionados como muestras-->
+  <div class="d-flex gap-2 mb-4">
+    <div *ngFor="let color of colorScheme" class="rounded border" [style.background]="color.hex.value" style="width: 40px; height: 40px;"></div>
+     <!-- Cada muestra usa el color HEX como fondo -->
+  </div>
+
+  <h2 class="mb-3">CONVERTIDOR</h2>
+  <!-- Muestra los valores HEX, RGB y HSL si hay colorInfo -->
+  <div *ngIf="colorInfo" class="row">
+    <div class="col-md-4 mb-2">
+      <div class="p-2 bg-light rounded border">
+        <strong>HEX:</strong> {{ colorInfo.hex.value }}
+      </div>
+    </div>
+    <div class="col-md-4 mb-2">
+      <div class="p-2 bg-light rounded border">
+        <strong>RGB:</strong> {{ colorInfo.rgb.value }}
+      </div>
+    </div>
+    <div class="col-md-4 mb-2">
+      <div class="p-2 bg-light rounded border">
+        <strong>HSL:</strong> {{ colorInfo.hsl.value }}
+      </div>
+    </div>
+  </div>
+</div>
