@@ -1,0 +1,20 @@
+.navbar {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container-fluid {
+  max-width: 1440px; }
+
+.navbar-toggler {
+  margin-left: 1.5rem; }
+
+.nav-item a {
+  font-size: 1.6rem;
+  font-weight: 600;}
+
+.nav-link {
+  letter-spacing: 1px;
+}
