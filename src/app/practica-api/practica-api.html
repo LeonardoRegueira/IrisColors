@@ -1,0 +1,25 @@
+<p>practica-api works!</p>
+<button (click)="llamarColorPorTema(tema)">llamar color</button>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Tema</th>
+      <th>Grupo</th>
+      <th>Color HEX</th>
+      <th>Color RGB</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    @for (color of listaDeColores; track color.name) {
+    <tr>
+      <td class="linea">{{ color.name }}</td>
+      <td class="linea">{{ color.theme }}</td>
+      <td class="linea">{{ color.group }}</td>
+      <td class="linea">{{ color.hex }}</td>
+      <td class="linea">{{ color.rgb }}</td>
+    </tr>
+    }    
+  </tbody>
+</table>

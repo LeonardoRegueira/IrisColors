@@ -1,0 +1,11 @@
+@api = https://www.csscolorsapi.com/api/
+
+
+
+###
+GET https://www.csscolorsapi.com/api/colors/blue
+
+###
+
+GET {{api}}colors/gray
+
