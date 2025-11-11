@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./paleta.component.css']
 })
 export class PaletaComponent {
-  paletas = Array(9)
-    .fill(0)
-    .map(() => Array(5).fill('#ccc'));
+  // paletas = Array(9)
+  //   .fill(0)
+  //   .map(() => Array(5).fill('#ccc'));
 }
